@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: production
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: production
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.jx.expop.com.cn
+  pipelines: {}
